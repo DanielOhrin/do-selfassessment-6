@@ -1,0 +1,82 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "first_name": "Daniel",
+      "last_name": "Ohrin",
+      "email": "xqiam@outlook.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Chris",
+      "last_name": "Stapleton",
+      "email": "thisisafakeemail@gmail.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Eddie",
+      "last_name": "Vedder",
+      "email": "thisisafakeemail@gmail.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "label": "Business"
+    },
+    {
+      "id": 2,
+      "label": "Friendly"
+    },
+    {
+      "id": 3,
+      "label": "Family"
+    },
+    {
+      "id": 4,
+      "label": "Congratulations"
+    },
+    {
+      "id": 5,
+      "label": "Condolences"
+    }
+  ],
+  "recipients": [
+    {
+      "id": 1,
+      "first_name": "Daniel",
+      "last_name": "Ohrin",
+      "email": "xqiam@outlook.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Chris",
+      "last_name": "Stapleton",
+      "email": "thisisafakeemail@gmail.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Eddie",
+      "last_name": "Vedder",
+      "email": "thisisafakeemail@gmail.com"
+    }
+  ],
+  "letters": [
+    {
+      "authorId": 1,
+      "topicId": 2,
+      "recipientId": 3,
+      "description": "Etiam tempor eu justo sed varius. Integer nunc dolor, varius vel fermentum et, ultricies eget mi. Vestibulum posuere feugiat mi eget ullamcorper. Fusce vulputate ultrices lacus ut sollicitudin.",
+      "date": "27/09/2022",
+      "id": 1
+    },
+    {
+      "authorId": 1,
+      "topicId": 2,
+      "recipientId": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis lacinia mauris. Quisque ultrices ultrices eros, imperdiet ullamcorper sem facilisis at. Suspendisse eleifend lobortis pretium. Ut vestibulum leo sed euismod faucibus. Nunc maximus lectus ex, non lacinia erat mollis vitae. Nam sodales quis magna semper semper.",
+      "date": "27/09/2022",
+      "id": 2
+    }
+  ]
+}

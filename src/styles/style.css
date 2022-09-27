@@ -1,0 +1,75 @@
+/* resize to allow/deny resizing */ 
+
+#container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form-div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+#topic-h4 {
+    height: fit-content;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.form-div > * {
+    width: 100%;
+}
+
+textarea {
+    aspect-ratio: 1/0.25;
+    resize: none;
+}
+
+.letter-div {
+    background-color: rgb(190, 255, 255);
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    width: 100%;
+    border: thin solid black;
+}
+
+#letters {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 50%;
+}
+
+.tag-div {
+    background-color: rgb(242, 252, 156);
+    border: thin solid black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    max-height: fit-content;
+    width: fit-content;
+    margin-bottom: 1rem;
+    box-shadow: 0.075rem 0.075rem;
+}
+
+.tag-div > p {
+    margin: 0rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+.date-p {
+    font-size: 0.9rem;
+}
+
+#main-form {
+    width: 40%;
+}
